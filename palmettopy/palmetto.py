@@ -2,8 +2,8 @@ import requests
 import socket
 from io import BytesIO
 
-from .fastcoherence import calculate_coherence_fast
-from .exceptions import CoherenceTypeNotAvailable, EndpointDown, WrongContentType
+from fastcoherence import calculate_coherence_fast
+from exceptions import CoherenceTypeNotAvailable, EndpointDown, WrongContentType
 
 
 class Palmetto(object):
