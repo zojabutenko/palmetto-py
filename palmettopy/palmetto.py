@@ -17,7 +17,7 @@ class Palmetto(object):
     ]
 
     def __init__(self,
-                 palmetto_uri="http://palmetto.aksw.org/palmetto-webapp/service/", timeout=5):
+                 palmetto_uri="http://palmetto.aksw.org/palmetto-webapp/service/", timeout=30):
         self.palmetto_uri = palmetto_uri
         self.timeout = timeout
 
